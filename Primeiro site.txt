@@ -1,0 +1,9 @@
+Primeiro site:
+
+
+Menu e rodapé -> não são alteraveis
+
+header -> cabeçario -> muda a cada página
+
+contéudo muda a cada página.
+

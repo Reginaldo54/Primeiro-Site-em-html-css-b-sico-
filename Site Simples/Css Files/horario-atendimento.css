@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    width: 1200px;
+    display: flex;
+    
+    background-color: rgb(29, 197, 99);
+
+}
+#main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+#menu {
+  
+    width: 10%;
+  
+    background-color: rgb(6, 197, 92);
+    padding: 10px 20px;
+  
+    
+}
+
+
+#menu h2
+{
+    margin-left: 35%;
+    color: whitesmoke;
+    
+}
+
+#header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    max-height: 300px;
+    cursor: pointer;
+}
+
+#header img
+{
+    width: 100%;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.877);
+    min-height: 230px;
+    padding: 20px;
+}
+#footer{
+  
+    background-color: rgb(2, 139, 82);
+    min-height: 100px;
+    color: aliceblue;
+    text-align: center;
+   
+}
+#footer h2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#footer a
+{
+    color: aliceblue;
+    display: inline;
+    padding: 10px 10px;
+
+  
+}
+
+
+#luz
+{
+    color: rgb(222, 235, 51);
+    font-weight: bolder;
+}
+
+
+
+#vida
+{
+    color: rgb(73, 248, 66);
+    font-weight: bolder;
+    
+}
+
+/*Mouse sobre os elementos*/
+
+#footer a:hover, a:hover 
+{
+    color:#240404;
+}
+
+
+#luz:hover
+{
+    color:rgb(243, 243, 154);
+    cursor: pointer;
+}
+
+#vida:hover
+{
+    color: rgb(164, 231, 161);
+    cursor: pointer;
+}
+
+
+
+/*Tabela*/
+
+table
+{
+    box-shadow: 10px 17px 29px 3px rgba(130,120,120,0.47);
+    -webkit-box-shadow: 10px 17px 29px 3px rgba(130,120,120,0.47);
+    -moz-box-shadow: 10px 17px 29px 3px rgba(130,120,120,0.47);
+
+
+    margin: auto;
+}
+
+
+
+table thead th
+{
+    background-color: black;
+    color: whitesmoke;
+
+   
+}
+
+
+table tbody tr:hover td
+{
+    background-color: rgb(141, 72, 72);
+    color: white;
+
+}
+
+table tbody tr:nth-child(even)
+{
+    background-color: rgb(192, 189, 189);
+}
+
+
+
+#tabl
+{
+ text-align: center;   
+
+}
